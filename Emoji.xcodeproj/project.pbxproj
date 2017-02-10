@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		736A7CCB1E4B6E3900D4E4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736A7CCA1E4B6E3900D4E4DE /* AppDelegate.swift */; };
-		736A7CCD1E4B6E3900D4E4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736A7CCC1E4B6E3900D4E4DE /* ViewController.swift */; };
+		736A7CCD1E4B6E3900D4E4DE /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736A7CCC1E4B6E3900D4E4DE /* EmojiViewController.swift */; };
 		736A7CD01E4B6E3900D4E4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736A7CCE1E4B6E3900D4E4DE /* Main.storyboard */; };
 		736A7CD21E4B6E3900D4E4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736A7CD11E4B6E3900D4E4DE /* Assets.xcassets */; };
 		736A7CD51E4B6E3900D4E4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736A7CD31E4B6E3900D4E4DE /* LaunchScreen.storyboard */; };
+		736A7CDE1E4B6F9300D4E4DE /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736A7CDD1E4B6F9300D4E4DE /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		736A7CC71E4B6E3900D4E4DE /* Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736A7CCA1E4B6E3900D4E4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		736A7CCC1E4B6E3900D4E4DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		736A7CCC1E4B6E3900D4E4DE /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
 		736A7CCF1E4B6E3900D4E4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		736A7CD11E4B6E3900D4E4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736A7CD41E4B6E3900D4E4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736A7CD61E4B6E3900D4E4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736A7CDD1E4B6F9300D4E4DE /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		736A7CC91E4B6E3900D4E4DE /* Emoji */ = {
 			isa = PBXGroup;
 			children = (
-				736A7CCA1E4B6E3900D4E4DE /* AppDelegate.swift */,
-				736A7CCC1E4B6E3900D4E4DE /* ViewController.swift */,
+				736A7CDC1E4B6E5500D4E4DE /* Supporting Files */,
+				736A7CCC1E4B6E3900D4E4DE /* EmojiViewController.swift */,
 				736A7CCE1E4B6E3900D4E4DE /* Main.storyboard */,
+				736A7CDD1E4B6F9300D4E4DE /* Emoji.swift */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		736A7CDC1E4B6E5500D4E4DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				736A7CCA1E4B6E3900D4E4DE /* AppDelegate.swift */,
 				736A7CD11E4B6E3900D4E4DE /* Assets.xcassets */,
 				736A7CD31E4B6E3900D4E4DE /* LaunchScreen.storyboard */,
 				736A7CD61E4B6E3900D4E4DE /* Info.plist */,
 			);
-			path = Emoji;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736A7CCD1E4B6E3900D4E4DE /* ViewController.swift in Sources */,
+				736A7CDE1E4B6F9300D4E4DE /* Emoji.swift in Sources */,
+				736A7CCD1E4B6E3900D4E4DE /* EmojiViewController.swift in Sources */,
 				736A7CCB1E4B6E3900D4E4DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
